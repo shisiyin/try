@@ -1,0 +1,67 @@
+html{
+    font-size: 62.5%;
+}
+.header{
+    width: 720px;
+    min-width: 320px;
+    height: 86px;
+    background: #5fc0cd;
+    color: white;
+    margin: 0 auto;     /*       定宽居中        */
+    text-align: center;
+    line-height: 86px;         /*           父高等于行高   子垂直居中   单行文本           */
+}
+.container{
+    width: 660px;
+    margin: 0 auto;
+    /*   background-color   无效  */
+}
+.header-back{
+    width: 32px;
+    float:left;
+    margin: 0;
+}
+.header-title{
+    width: 628px;
+    height: 86px;
+    float: right;
+
+    font-size: 36px;
+    color: white;
+    margin: 0 ;
+}
+
+.footer{
+    height: 88px;
+    margin:0 14px;
+    padding: 0;
+    position:absolute;
+    top: 1108px;;
+}
+.footer-message{
+    height: 88px;
+    line-height: 88px;
+    width: 308px;
+    margin: 0 12px 0 38px;
+    border: 2px solid #5fc0cd;
+    border-radius: 10px;
+    color: #5fc0cd ;
+    background: white;
+    float: left;
+    font-size: 34px;
+}
+.footer-phone{
+    height: 88px;
+    line-height: 88px;
+    width: 308px;
+    margin: 0 12px 0 38px;
+    border: 2px solid #5fc0cd;
+    border-radius: 15px;
+    color:white ;
+    background:#5fc0cd ;
+    float:right;
+    font-size: 34px;
+}
+
+
+

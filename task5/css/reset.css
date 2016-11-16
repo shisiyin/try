@@ -1,0 +1,34 @@
+body,div,ul,a,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 320px;
+    width: 720px;
+    margin: 0 auto;
+}
+ul,li{
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+    display: block;
+}
+img{
+    border:none;
+    display:inline-block;         /*   任务 中间需要inline  一般是block  */
+}
+.header-back img {
+    display: inline;
+    vertical-align: middle;          /*    麻蛋 这货没用           */
+}
+.clearfloat:after{
+     content:"" ;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}                         /*  ie8 清除浮动   */
+.clearfloat{
+    zoom: 1;
+}                        /*   ie6,7    */
