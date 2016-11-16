@@ -1,0 +1,89 @@
+@charset "utf-8";
+.banner{
+    max-width: 720px;
+    min-width: 320px;
+    margin: 9% auto 0;
+    width: 100%;
+    padding:0;
+    background-image: url("../images/banner-bg.png");
+    background-size: 100%;
+}
+.banner-nurse {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3%;
+    width: 25%;
+}
+.banner-txt{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding:11% 1%;
+    color: white;
+    font-size: 2.25rem;
+}
+.age{
+    font-size:1.75rem;
+    margin-left: 5%;
+}
+.address{
+    font-size: 1.5rem;
+    margin-left:3%;
+}
+
+.content{
+    max-width: 720px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    border-bottom: 1px solid #e1e5e7;
+    font-size: 2rem;
+    overflow: hidden;
+}
+.content>p{
+    width: 100%;
+    padding: 4% 0 4% 3%;
+}
+.content-skill{
+    border-bottom: 1px solid #e1e5e7;
+}
+.skill{
+    border-left: 4px solid #5fc0cd;
+    padding-left: 3%;
+}
+.content-iocn{
+    display: inline-block;
+    margin-left: 3%;
+    border-bottom:1px solid #e1e5e7 ;
+}
+.content>p>span{
+    padding-right: 4%;
+    margin-right: 3%;
+}
+.border{
+    border-right:1px solid #e1e5e7  ;
+}
+.content-list{
+    width: 100%;
+    margin:0 0 10% 1%;         /*  撑起footer 的脱离文档   */
+}
+.item{
+    padding: 4% 0 4% 3%;
+    border-bottom:1px solid #e1e5e7 ;
+}
+.list-left{
+    padding-right: 3%;
+    margin-right: 3%;
+    color:#999 ;
+}
+.red{
+    color: red;
+}
+.intrd{
+    display: inline-block;
+    width: 65%;
+    font-size:1.75rem;
+    letter-spacing: -0.1rem;
+    margin-right: 3%;
+}

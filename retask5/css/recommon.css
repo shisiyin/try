@@ -1,0 +1,109 @@
+@charset "utf-8";
+@media only screen and (min-width:320px){
+    html{font-size:7px!important}.viewport{max-width:320px}
+}
+@media only screen and (min-width:360px){
+    html{font-size:8px!important}.viewport{max-width:360px}
+}
+@media only screen and (min-width:480px){
+    html{font-size:11px!important}.viewport{max-width:480px}
+}
+@media only screen and (min-width:600px){
+    html{font-size:13px!important}.viewport{max-width:600px}
+}
+html {
+    font-size: 16px;
+}
+
+body,div,a,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    max-width: 720px;
+    min-width: 320px;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+a:link{text-decoration: none;}
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/*       头部             */
+.header{
+    max-width: 720px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0;
+    vertical-align: middle;
+    background: #5fc0cd;
+    color: white;
+    position: fixed;
+    top:0;
+    font-size: 2.25rem;
+}
+/*.header-icon{
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+}        */
+.header-page{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: -100%;         /*    这是个神奇的东东     */
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+/*    尾部     */
+.footer{
+    max-width: 720px;
+    min-width: 320px;
+    width: 100%;
+    float: left;
+    margin:0 auto;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+}
+.footer-massage{
+    width: 40%;
+    margin: 0 3% 0 6%;
+    padding: 2% 0;
+    float: left;
+    color: #5fc0cd;
+    background: white;
+    font-size: 2.125rem;
+    border: 1px solid #5fc0cd;
+    border-radius:1rem;
+}
+.footer-phone{
+    width: 40%;
+    margin: 0 3% 0 6%;
+    padding: 2% 0;
+    float: left;
+    color: white;
+    background: #5fc0cd;
+    font-size: 2.125rem;
+    border: 1px solid #5fc0cd;
+    border-radius:1rem;
+}
