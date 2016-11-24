@@ -1,0 +1,162 @@
+@charset "utf-8";
+[class *= col-]{
+    border: 1px solid #afbac0;
+    height:8rem ;
+    line-height: 8rem;
+    text-align: center;
+}
+
+.color{color:#afbac0 }
+.color-red{
+    color: red;
+    font-size: 3rem;
+}
+.right{
+    float:right;
+}
+body{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.center-container{
+    max-width: 92%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.header{
+    max-width: 720px;
+    width: 100%;
+    height:9rem;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background: #5fc0cd;
+}
+.header-wrap{
+    display: inline-block;
+    width: 28.6rem;
+    height: 7rem;
+    margin: 1rem auto;
+    padding: 0;
+    background: #55a8b3;
+    border-radius: 5px;
+    font-size: 3.4rem;
+}
+.wrap-left{
+    width: 50%;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    color: white;
+}
+.wrap-right{
+    width: 50%;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    color:#5fc0cd ;
+    background: white;
+}
+.header-icon{
+    width: 8%;
+    display: inline-block;
+    float: right;
+    padding: 1rem 0;
+}
+/*  头部结束 主体开始  */
+.main{
+    max-width: 720px;
+    margin: 9rem auto 0;
+    font-size: 2.8rem;
+}
+.main-container{
+    max-width: 720px;
+    min-width: 320px;
+    overflow: hidden;
+}
+.caret{
+    margin: 3.5rem 1rem;
+}
+.list-unstyled{margin: 3% 0}
+.item{
+    border-bottom:1px solid #afbac0;
+}
+.data{
+    margin: 0 4%;
+    height: 4rem;
+    line-height: 4rem;
+}
+.price{
+    margin: 0 4% 0 9%;
+    height: 5rem;
+    line-height: 5rem;
+}
+.address{
+    margin: 0 4%;
+    height: 4rem;
+    line-height: 4rem;
+}
+/*    主体结束  footer开始   */
+.footer{
+    max-width:720px ;
+    width: 100%;
+    margin: 0 auto;
+    height: 10rem;
+    background:#f8fafb;
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 0;
+}
+.footer-left{
+    width: 42%;
+    height: 100%;
+    background-image: url("../images/footer-homepage.png");
+    background-size: 15%;    /*    这个很重要  自适应！！！！        */
+    background-repeat: no-repeat;
+    background-position:53% 15%;
+    float: left;
+}
+.footer-center{
+    width:auto;
+    height: 100%;
+    margin: 0 43%;
+    background-size: 96%;    /*    这个很重要  自适应！！！！        */
+    background-image: url("../images/footer-center.png");  /*     原本使用css画圆的  但是放缩有问题  */
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.footer-right{
+    width: 42%;
+    height: 100%;
+    background-image: url("../images/footer-mine.png");
+    background-repeat: no-repeat;
+    background-position:53% 15%;
+    background-size: 15%;    /*    这个很重要  自适应！！！！        */
+    float:right;
+}
+.circle{
+    width: 96%;
+    height: 9.6rem;
+    margin: 0.4rem 0;
+    border-radius: 50%;
+    background-color:#5fc0cd;
+}
+.homepage{
+     margin-top:6.4rem;
+     padding-left: 45% ;
+     font-size: 2rem;
+     color:#5fc0cd ;
+ }
+.mine{
+    margin-top: 6.4rem;
+    padding-left: 47%;
+    font-size: 2rem;
+    color: #999;
+}
