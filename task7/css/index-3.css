@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.footer{
+    height: 10.9rem;
+    background: #99dff0;
+}
+.footer-left{
+    width: 40%;
+    height: 66%;
+    margin:2rem 4% 1.7rem 5%;
+    background: #f66f6f;
+    font-size: 3rem;
+}
+.footer-right{
+    width: 40%;
+    height: 66%;
+    margin:2rem 5% 1.7rem 4%;
+    background: #fbb435;
+    font-size: 3rem;
+}
+/*    main开始     */
+.main{
+    max-width:660px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: #29bde0;
+}
+.main-1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 19rem 0 5rem ;
+    background:#29bde0 url("../images/task7-3-banner.png") no-repeat center top;
+}
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-1-txt{
+    margin-top: auto;
+    font-size: 3.3rem;
+    color: #ffc865;
+}
+.main-1-list{
+    font-size: 2.6rem;
+    color: white;
+}
+.main-1-list>.col-xs-4>span{
+    letter-spacing:2.6rem;
+}
+.main-2{
+    width: 100%;
+    height: 28rem;
+    background-color: white;
+}
+.main-2-box{
+    width: 100%;
+    height: 14rem;
+    border-bottom:1px solid #ddd ;
+}
+.box-header{
+    font-size: 3rem;
+    color: #515151;
+    position: relative;
+}
+.box-header>span{
+    font-size: 2rem;
+    color:#a6a6a6;
+    position: absolute;
+    right: 3rem;
+}
+.box-txt{
+    font-size: 2.6rem;
+    color: #a6a6a6;
+}
+

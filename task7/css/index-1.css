@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body{
+
+}
+.main-container{
+    max-width: 660px;
+    width: 100%;
+    padding-top: 2.3rem;
+    text-align: center;
+    background:#f0f0f0;
+}
+.container-bottom{
+    padding-bottom: 5rem;
+}
+.main{
+    width: 94.5%;
+    margin: 0 auto;
+    background: white;
+}
+.main-1{
+    width: 94.5%;
+    margin: 0 auto;
+    height: 9.8rem;
+    font-size: 3.5rem;
+}
+.main-2{
+    width: 94.5%;
+    margin: 0 auto;
+    height: 65rem;
+    position: relative;
+}
+.main-1-tittle{
+    display: inline;
+    height: 9.8rem;
+    line-height: 9.8rem;
+    vertical-align: middle;
+    font-size: 3.5rem;
+    color: #d1d1d1;
+}
+.main-1-back{
+    margin: 2.8rem 1rem;
+}
+.main-2-tittle{
+    margin: 0;       /*    bootstrap  h margin-top   20px  margin-bottom:10px        */
+    height: 7.5rem;
+    line-height: 7.5rem;
+    font-size: 3.8rem;
+    color: #fbb435;
+    border-bottom: 1px solid #fbb435;
+}
+.main>.main-2>button{
+    width: 78%;
+    height: 11rem;
+    background: #69d1e9;
+    color: white;
+    font-size: 3.2rem;
+}
+.button1{margin-top: 2.5rem;}
+.button2{margin: 0}
+.button3{margin: 0}
+.main>.main-2>p{
+    font-size: 2.45rem;
+    color: #c3c3c3;
+    margin: 0;
+}
+.main-triangle{
+    position: absolute;
+    top:31rem;
+    right: 1rem;
+}
+.p1{
+    height: 6.5rem;
+    line-height: 6.5rem;
+}
+.p2{
+    height: 7rem;
+    line-height: 7rem;
+}
+.p3{
+    height: 7.5rem;
+    line-height: 7.5rem;
+}
+.main-footer{
+   background: url("../images/task7-1-more.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+/*  手机端还是效果不好   需加媒体查询  改变 最小单位   */
